@@ -1173,7 +1173,13 @@ $(function () {
 	<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
 	<script type="text/javascript" src="/js/fireworks.js"></script>
 	<!--浏览器搞笑标题-->
-	<script type="text/javascript" src="/js/FunnyTitle.js"></script>
+	<script type="text/javascript">
+    var OriginTitile=document.title,st;
+	document.addEventListener("visibilitychange",function(){
+        document.hidden?(document.title="ヽ(●-`Д´-)ノ你要玩捉迷藏嘛",clearTimeout(st)):(document.title="(Ő∀Ő3)ノ好哦！",st=setTimeout(function(){document.title=OriginTitile},3e3))
+    })
+	</script>
+
 	<script type="text/javascript">
 		//只在桌面版网页启用特效
 		var windowWidth = $(window).width();
@@ -1236,7 +1242,7 @@ $(function () {
             const strs = href.split('/');
             if (strs.length >= 3) {
                 const host = strs[2];
-                if (host !== 'your_domain' || window.location.host) {
+                if (host !== 'rxkhub.github.io' || window.location.host) {
                     $this.attr('href', '/go.html?u='+Base64.encode(href)+'').attr('rel', 'external nofollow noopener noreferrer');
                     if (true) {
                         $this.attr('target', '_blank');
