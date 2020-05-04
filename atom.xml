@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://rxkhub.github.io/"/>
-  <updated>2020-05-03T14:41:33.457Z</updated>
+  <updated>2020-05-04T09:20:16.477Z</updated>
   <id>https://rxkhub.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://rxkhub.github.io/posts/3eeb.html"/>
     <id>https://rxkhub.github.io/posts/3eeb.html</id>
     <published>2020-05-02T03:00:22.238Z</published>
-    <updated>2020-05-03T14:41:33.457Z</updated>
+    <updated>2020-05-04T09:20:16.477Z</updated>
     
     <summary type="html">
     
@@ -36,6 +36,10 @@
     </summary>
     
     
+      <category term="hexo" scheme="https://rxkhub.github.io/categories/hexo/"/>
+    
+    
+      <category term="helloworld" scheme="https://rxkhub.github.io/tags/helloworld/"/>
     
   </entry>
   

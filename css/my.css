@@ -67,14 +67,13 @@ body{
     }
 }
 /* 修改首页轮播的标题大小 */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 610px) {
     .bg-cover .title {
         font-size: 1.5rem;
     }
 }
-
 /* 修改博客标题的字体大小 */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 610px) {
     header .brand-logo .logo-span {
         font-size: 0.5rem;
     }
